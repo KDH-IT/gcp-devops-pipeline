@@ -1,0 +1,16 @@
+server:
+  port: 8901
+
+---
+spring:
+  application:
+    name: "GCP - Devops - Sample Web"
+---
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health, info

@@ -1,1 +1,3 @@
-GCP로만드는 DevOps Pipeline
+GCP로 만드는 DevOps Pipeline
+
+[ ] Make Jenkinsfile & Test
